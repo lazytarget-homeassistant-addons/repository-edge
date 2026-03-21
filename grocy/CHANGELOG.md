@@ -1,18 +1,16 @@
-# Changelog since v0.24.1
-- Added permissions block for deploy.yaml (#2) 
-- Configures repository for custom fork (#1)
+## What’s changed
 
-* Resolve permissions issue with `hassio-addon/workflows`
+Initial release for `lazytarget-homeassistant-addons`!
+Based on [hassio-addons/addon-grocy@v0.24.0](https://github.com/hassio-addons/addon-grocy/releases/tag/v0.24.0)
+But also includes some dependency upgrades. Base commit: [f4a37d](https://github.com/hassio-addons/addon-grocy/tree/f4a37d457eb7db8d10af1b397204c6a9a10d6c6a)
 
-* Remove 'release-drafter' workflow, since it is baked into 'ci'
+## 🐛 Bug fixes
 
-* Renovate - Only scan for Grocy updates (and merge manually)
+- Resolve permissions issues with `hassio-addon/workflows`, bypass by using forked workflows @lazytarget 
 
-* Personalize fork metadata 
-- Personalize fork metadata 
-- Renovate - Only scan for Grocy updates (and merge manually) 
-- Remove 'release-drafter' workflow, since it is baked into 'ci' 
-- Resolve permissions issue with `hassio-addon/workflows` 
-- ⬆️ Update grocy/grocy to v4.5.0 (#483)
+## 🚀 Enhancements
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- Remove 'release-drafter' workflow, since it is baked into 'ci' @lazytarget 
+- Personalize fork metadata @lazytarget 
+- Configures repository for custom fork @lazytarget
+- Renovate - Only scan for Grocy updates (and merge manually) @lazytarget 
